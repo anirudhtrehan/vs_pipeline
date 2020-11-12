@@ -4,12 +4,26 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^10.1.4"
+    "electron": "^10.1.4",
+    "electron-builder": "^22.9.1"
+  },
+  "build": {
+    "appId": "com.helloworld",
+    "target": "nsis",
+    "directories": {
+      "output": "build"
+    },
+    "nsis": {
+      "allowToChangeInstallationDirectory": true,
+      "oneClick": false
+    }
   }
 }
