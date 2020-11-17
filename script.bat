@@ -10,6 +10,8 @@ setlocal
 	:loop
 		if %count% == %zero% ( 
 		npm i --save-dev electron
+		npm i -D chai
+		npm i -D mocha
 		goto :buildinstall
 
 		:buildinstall
