@@ -1,0 +1,9 @@
+###
+### Default mocha.opts with allure report
+###
+
+--require ts-node/register ./test/specs/AutoTest.ts
+--reporter mocha-allure-reporter
+--timeout 50000
+--recursive
+--exit
