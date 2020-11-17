@@ -2,7 +2,7 @@
 ### Default mocha.opts
 ###
 
---require ts-node/register ./test/specs/AutoTest.ts
+--require AutoTest.js
 --timeout 50000
 --recursive
 --exit
