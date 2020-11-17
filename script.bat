@@ -13,7 +13,7 @@ setlocal
 		goto :buildinstall
 
 		:buildinstall
-		cd getLoginapp
+		cd my-electron-app
 		npm install electron-builder --save-dev
 		goto :buildrun
 
