@@ -4,8 +4,7 @@ goto :main
 :main
 setlocal
 
-	cd getLoginapp
-	cd
+	cd my-electron-app
 	set /a count=0
 	set /a zero=0
 	:loop
