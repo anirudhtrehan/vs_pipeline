@@ -30,7 +30,7 @@
     "electron": "^3.0.2",
     "mocha": "^5.2.0",
     "mocha-allure-reporter": "^1.4.0",
-    "spectron": "^4.0.0",
+    "spectron": "^4.0.0"
   },
   "build": {
     "appId": "com.helloworld",
@@ -44,4 +44,4 @@
     }
   }
 
-
+}
